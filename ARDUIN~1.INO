@@ -6,7 +6,7 @@
   | -Ing. Eduardo Enique González Moran          |
   | -Ing. Abdel Mohamed El Chama Andrade         |
   |                                              |
-  |    Depurado y comentado por:                 |
+  |    Depurado, Actualizado y comentado por:    |
   |    Br. Eduardo Fermín Toro Beltrán           |
   |    (c) URBE, CIDETIU, GIRA (2019)            |
   |                                              |
@@ -21,6 +21,7 @@
   |                                              |
   |                                              |
   |______________________________________________|*/
+
 #include <Servo.h>//libreria Servo estandar de ARDUINO 
 #include <Ultrasonic.h>//Libreria del sensor Ultrasonico en el archivo Ultrasonic-3.0.0.rar
 
@@ -93,6 +94,7 @@ void print_values(int i, int distance) {
        digitalWrite(LED1, LOW);
       }//else if 
 } //print_values()
+
 void print_values2(int i, int distance) {
   Serial.print("SENSOR2,|,");
   Serial.print(i);
